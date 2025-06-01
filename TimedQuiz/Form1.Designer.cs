@@ -61,6 +61,7 @@
             // 
             // productRightLabel
             // 
+            this.productRightLabel.AutoSize = true;
             this.productRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productRightLabel.Location = new System.Drawing.Point(393, 234);
             this.productRightLabel.Name = "productRightLabel";
@@ -71,6 +72,7 @@
             // 
             // minusRightLabel
             // 
+            this.minusRightLabel.AutoSize = true;
             this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusRightLabel.Location = new System.Drawing.Point(393, 144);
             this.minusRightLabel.Name = "minusRightLabel";
@@ -81,6 +83,7 @@
             // 
             // productLeftLabel
             // 
+            this.productLeftLabel.AutoSize = true;
             this.productLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productLeftLabel.Location = new System.Drawing.Point(153, 234);
             this.productLeftLabel.Name = "productLeftLabel";
@@ -91,6 +94,7 @@
             // 
             // minusLeftLabel
             // 
+            this.minusLeftLabel.AutoSize = true;
             this.minusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusLeftLabel.Location = new System.Drawing.Point(153, 144);
             this.minusLeftLabel.Name = "minusLeftLabel";
@@ -101,6 +105,7 @@
             // 
             // plusLeftLabel
             // 
+            this.plusLeftLabel.AutoSize = true;
             this.plusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusLeftLabel.Location = new System.Drawing.Point(153, 56);
             this.plusLeftLabel.Name = "plusLeftLabel";
@@ -111,6 +116,7 @@
             // 
             // plusRightLabel
             // 
+            this.plusRightLabel.AutoSize = true;
             this.plusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusRightLabel.Location = new System.Drawing.Point(393, 56);
             this.plusRightLabel.Name = "plusRightLabel";
@@ -118,9 +124,11 @@
             this.plusRightLabel.TabIndex = 7;
             this.plusRightLabel.Text = "?";
             this.plusRightLabel.UseVisualStyleBackColor = true;
+            this.plusRightLabel.Click += new System.EventHandler(this.plusRightLabel_Click);
             // 
             // divisonRightLabel
             // 
+            this.divisonRightLabel.AutoSize = true;
             this.divisonRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisonRightLabel.Location = new System.Drawing.Point(393, 328);
             this.divisonRightLabel.Name = "divisonRightLabel";
@@ -131,6 +139,7 @@
             // 
             // divisionLeftLabel
             // 
+            this.divisionLeftLabel.AutoSize = true;
             this.divisionLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionLeftLabel.Location = new System.Drawing.Point(153, 328);
             this.divisionLeftLabel.Name = "divisionLeftLabel";
@@ -141,6 +150,7 @@
             // 
             // button3
             // 
+            this.button3.AutoSize = true;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(522, 144);
             this.button3.Name = "button3";
@@ -151,6 +161,7 @@
             // 
             // button1
             // 
+            this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(522, 234);
             this.button1.Name = "button1";
@@ -162,6 +173,7 @@
             // 
             // button12
             // 
+            this.button12.AutoSize = true;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(522, 328);
             this.button12.Name = "button12";
@@ -173,6 +185,7 @@
             // 
             // button9
             // 
+            this.button9.AutoSize = true;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(522, 56);
             this.button9.Name = "button9";
@@ -202,6 +215,7 @@
             // 
             // button7
             // 
+            this.button7.AutoSize = true;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(273, 56);
             this.button7.Name = "button7";
@@ -219,9 +233,11 @@
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 41);
             this.sum.TabIndex = 1;
+            this.sum.ValueChanged += new System.EventHandler(this.sum_ValueChanged);
             // 
             // button8
             // 
+            this.button8.AutoSize = true;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(273, 144);
             this.button8.Name = "button8";
@@ -232,6 +248,7 @@
             // 
             // button13
             // 
+            this.button13.AutoSize = true;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(273, 234);
             this.button13.Name = "button13";
@@ -242,6 +259,7 @@
             // 
             // button14
             // 
+            this.button14.AutoSize = true;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(273, 328);
             this.button14.Name = "button14";
@@ -281,7 +299,7 @@
             // 
             this.startButton.AutoSize = true;
             this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startButton.Location = new System.Drawing.Point(329, 426);
+            this.startButton.Location = new System.Drawing.Point(338, 432);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(166, 39);
             this.startButton.TabIndex = 22;
@@ -292,13 +310,14 @@
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(869, 512);
+            this.ClientSize = new System.Drawing.Size(842, 554);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.division);
             this.Controls.Add(this.product);
